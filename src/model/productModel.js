@@ -14,7 +14,7 @@ const productSchema=mongoose.Schema({
     },
     image:{
         type:String,
-        require:true
+       // require:true
     }
 
 })
