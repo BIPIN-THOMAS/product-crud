@@ -7,8 +7,8 @@ const router=express.Router()
 
 
 router.post("/create_Product",product.createProduct);
-router.put("/getProductby_id", product.getProductById);
-router.put("/update_Product", product.updateProduct);
+router.put("/getProductbyid/:id", product.getProductById);
+router.put("/update_Product/:id", product.updateProduct);
 
 
 module.exports=router;
