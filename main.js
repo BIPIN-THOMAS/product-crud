@@ -4,6 +4,7 @@ const mongoose=require('mongoose');
 const session=require('express-session');
 
 const app=express();
+app.use(express.json())
 const PORT=process.env.PORT || 8000
 
 const authRouter=require('./src/routes/router')//to require the router
